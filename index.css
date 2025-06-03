@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 70px;
+    background-color: #765C3D;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.right a {
+    text-decoration: none;
+    
+}
+
+.right h1 {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0;
+    transition: color 0.3s ease;
+    color: #F2D2AE;
+}
+.right a:hover,
+.right h1:hover {
+    color: blanchedalmond; /* Dark blue */
+    cursor: pointer;
+}
