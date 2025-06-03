@@ -38,3 +38,50 @@ body{
     color: blanchedalmond; /* Dark blue */
     cursor: pointer;
 }
+.picture{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/pexels-paul-ijsendoorn-33041.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+
+    z-index: -1;
+}
+
+.contenu {
+    height: 50%;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8% 0 0 15%;
+}
+.contenu h1 {
+    color: white;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+.contenu h2{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.butn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.butn button{
+    border-radius: 18%;
+    border: none;
+    padding: 12px;
+    background-color: #B59066;
+    color: white;
+    width: 114px;
+}
+
